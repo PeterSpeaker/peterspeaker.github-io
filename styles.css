@@ -1,0 +1,171 @@
+body{
+    background-color:#bdcade;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: rgb(75, 75, 75);
+}
+
+.container{
+    margin-inline: 6%;
+}
+/* header */
+.header{
+    color: rgb(240, 240, 240);
+    margin-bottom: 5%;
+}
+
+h1{
+    font-size: 7em;
+    text-shadow: 3px 3px black;
+}
+
+h2{
+    font-size:4em;
+    text-shadow: 2px 2px black;
+}
+
+.header p{
+    font-size: 1.5em;
+    text-shadow: 1px 1px black;
+}
+
+
+/* texts */
+.text-container{
+    padding: 5%;
+    background-color: #e6e6e6;
+    margin-inline:6%;
+    border-radius: 20px 20px 22px 20px;
+    height: 100%;
+    margin-top:10%;
+}
+
+h3{
+    font-size: 3em;
+}
+
+.desktopImage{
+    float:right;
+    margin-left:2%;
+    margin-bottom: 2%;
+    max-width:40%;
+    border:3px solid #bdcade
+
+}
+.text-container p{
+    
+    font-size:1em;
+    text-align: justify;
+
+}
+ul{
+    margin-top: 5%;
+    font-size: 1em;
+}
+ol{
+    margin-top: 5%;
+    font-size: 1em;
+}
+li{
+    padding-top: 1%;
+}
+/* arrangement */
+.arrangements-container{
+    height: 150%;
+}
+
+
+
+/* link */
+
+
+a:link {
+    text-decoration: none;
+    color:black;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color:black;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color:#bdcade;
+    text-shadow: 1px 1px black;
+  }
+  
+  a:active {
+    text-decoration: none;
+    color:black;
+  }
+
+
+
+  /* footer */
+
+  .footer{
+    margin-top: 10%;
+    background-color: #e6e6e6;
+
+}
+.footer ul{
+    margin-top: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mobileImage{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:720px){
+    h1{
+        font-size: 4em;
+    }
+    h2{
+        font-size: 2em;
+    }
+    .header p{
+        font-size: 1.25em;
+    }
+    li{
+        padding-top:5% ;
+    }
+    .mobileImage{
+        display:initial;
+        width: 100%;
+        border-bottom-left-radius: 5%;
+        border-bottom-right-radius: 5%;
+        border:5px solid #bdcade
+    }
+    .desktopImage{
+        display: none;
+    }
+    h3{
+        font-size: 1.75em;
+        padding-bottom: 3%;
+    }
+
+}
