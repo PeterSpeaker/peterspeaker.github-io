@@ -80,25 +80,23 @@ li{
 
 /* link */
 
-
-    
-  .arrangements a:link {
+   .email a:link {
     text-decoration: none;
     color:black;
   }
   
-  .arrangements a:visited {
+  .email a:visited {
     text-decoration: none;
     color:black;
   }
   
-  .arrangements a:hover {
+  .email a:hover {
     text-decoration: none;
     color:#bdcade;
     text-shadow: 1px 1px black;
   }
   
-  .arrangements a:active {
+  .email a:active {
     text-decoration: none;
     color:black;
   }
