@@ -81,23 +81,24 @@ li{
 /* link */
 
 
-a:link {
+    
+  .arrangements a:link {
     text-decoration: none;
     color:black;
   }
   
-  a:visited {
+  .arrangements a:visited {
     text-decoration: none;
     color:black;
   }
   
-  a:hover {
+  .arrangements a:hover {
     text-decoration: none;
     color:#bdcade;
     text-shadow: 1px 1px black;
   }
   
-  a:active {
+  .arrangements a:active {
     text-decoration: none;
     color:black;
   }
